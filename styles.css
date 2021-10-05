@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  font-family: "quicksand", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  height: 24px;
+  width: 24px;
+}
+
+.logo {
+  background-color: #c00ec0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.logo h1 {
+  align-self: center;
+  font-size: 110px;
+  font-weight: 700;
+  padding-bottom: 50px;
+  letter-spacing: 4px;
+}
+
+.login-container {
+  display: flex;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.back-container p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.back-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.back {
+  border: 2px solid #212121;
+  border-radius: 10px;
+  padding: 6px 12px 7px;
+  margin-right: 20px;
+  margin-top: 6px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.back img {
+  width: 10px;
+  height: 10px;
+}
+
+.login-content p {
+  color: gray;
+}
+
+.options-one,
+.options-two {
+  background-color: black;
+  border-radius: 10px;
+  padding: 12px 90px 10px;
+  cursor: pointer;
+}
+
+.options {
+  margin-left: 25px;
+}
+
+.options-one {
+  margin-right: 20px;
+}
+
+.or {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.login-options {
+  margin-left: 30px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.email {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 180px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.password-container p {
+  margin-left: 358px;
+}
+
+.password {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 180px 20px;
+  text-align: center;
+}
+
+.login-btn {
+  background-color: #c00ec0;
+  border-radius: 10px;
+  padding: 20px 226px 20px;
+  text-align: center;
+  color: white;
+}
+
+.signup {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .login-btn {
+    padding: 20px 223px 20px;
+  }
+  .logo h1 {
+    font-size: 80px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 600px) {
+    .logo{
+        display: none;
+    }
+
+    .password-container p{
+        margin-left: 335px;
+      }
+
+      .login-btn {
+        padding: 20px 210px 20px;
+        margin-left: 10px
+    }
+.login{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.back-container{
+    justify-content: center;
+    margin-right: 40px;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+    .logo{
+        display: none;
+    }
+
+    .password-container p{
+        margin-left: 335px;
+      }
+
+      .login-btn {
+        padding: 20px 210px 20px;
+        margin-left: 10px
+    }
+.login{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.back-container{
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.options-one,
+.options-two {
+  border-radius: 10px;
+  padding: 12px 50px 10px;
+  
+}
+
+.email, .password{
+    padding: 20px 100px 20px; 
+}
+
+.login-btn {
+    padding: 20px 120px 20px;
+  
+}
+
+.password-container p{
+    margin-left: 170px;
+  }
+
+}
+
+
